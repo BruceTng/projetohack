@@ -1,0 +1,180 @@
+{
+  "Caixa de banco": {
+    "risco_automacao": {
+      "nivel": "alto",
+      "justificativa": "Saques, depósitos e conferência de documentos já migraram para caixas eletrônicos e app. As agências continuam reduzindo o número de posições de caixa."
+    },
+    "carreiras": [
+      {
+        "titulo": "Analista de backoffice bancário",
+        "por_que_faz_sentido": "É o mesmo conjunto de operações que você já executa no caixa, só que na retaguarda: conciliação, conferência e tratamento de exceções. A diferença está em fazer isso em volume, com planilha e sistema, em vez de cliente a cliente.",
+        "skills_aproveitadas": [
+          "fechamento e conferência de caixa",
+          "análise de documentos e detecção de divergências",
+          "operação de sistema bancário interno",
+          "conhecimento de produtos e tarifas"
+        ],
+        "skills_faltantes": [
+          "Excel com PROCV, tabela dinâmica e filtros",
+          "noções de conciliação contábil"
+        ],
+        "tempo_transicao_meses": 6,
+        "primeiro_passo_semana": "Fazer o curso de Excel Intermediário da Fundação Bradesco até o módulo de tabela dinâmica (6h)",
+        "recursos_ids": ["ev_bradesco", "microsoft_learn", "fgv_gratuitos"]
+      },
+      {
+        "titulo": "Analista de prevenção a fraudes",
+        "por_que_faz_sentido": "Quem trabalha no caixa desenvolve faro para documento adulterado e comportamento fora do padrão. A área de prevenção precisa exatamente disso, agora aplicado sobre transações digitais.",
+        "skills_aproveitadas": [
+          "conferência de documentos e assinaturas",
+          "identificação de comportamento atípico no atendimento",
+          "conhecimento das regras de limite e alçada"
+        ],
+        "skills_faltantes": [
+          "SQL para consultar bases de transações",
+          "conceitos de PLD e KYC",
+          "leitura de indicadores de risco"
+        ],
+        "tempo_transicao_meses": 10,
+        "primeiro_passo_semana": "Completar as 4 primeiras lições do SQLBolt (3h)",
+        "recursos_ids": ["sqlbolt", "escola_virtual_gov", "coursera"]
+      },
+      {
+        "titulo": "Assistente de controladoria",
+        "por_que_faz_sentido": "Controladoria vive de fechar números e explicar diferenças, que é o seu fechamento de caixa em escala de empresa. Empresas de médio porte contratam esse perfil sem exigir diploma em contabilidade.",
+        "skills_aproveitadas": [
+          "fechamento diário e prestação de contas",
+          "conferência de comprovantes e lançamentos",
+          "rotina de controle com prazo fixo"
+        ],
+        "skills_faltantes": [
+          "Excel com fórmulas de consulta e dashboards",
+          "plano de contas e classificação de despesas",
+          "fluxo de caixa e DRE básica",
+          "Power BI introdutório"
+        ],
+        "tempo_transicao_meses": 12,
+        "primeiro_passo_semana": "Assistir ao módulo de fluxo de caixa nos cursos gratuitos do Sebrae (2h) e montar o seu próprio no Excel",
+        "recursos_ids": ["sebrae_cursos", "microsoft_learn", "khan_academy"]
+      }
+    ]
+  },
+  "Motorista de aplicativo": {
+    "risco_automacao": {
+      "nivel": "medio",
+      "justificativa": "Carro autônomo ainda não opera em cidade brasileira, mas a pressão vem antes disso: mais motoristas na plataforma e algoritmo apertando a tarifa reduzem o ganho por hora."
+    },
+    "carreiras": [
+      {
+        "titulo": "Analista de logística de última milha",
+        "por_que_faz_sentido": "Você já resolve na prática o problema central da área: entregar no menor tempo com o menor custo de combustível. A empresa precisa de alguém que entenda a rua, não só a planilha.",
+        "skills_aproveitadas": [
+          "leitura de trânsito e escolha de rota por horário",
+          "controle de custo por quilômetro rodado",
+          "gestão do próprio tempo e da jornada",
+          "uso diário de app de navegação e roteirização"
+        ],
+        "skills_faltantes": [
+          "Excel para montar indicadores de entrega",
+          "conceitos de SLA, OTIF e custo logístico"
+        ],
+        "tempo_transicao_meses": 8,
+        "primeiro_passo_semana": "Fazer o curso de logística gratuito da FGV, módulo de indicadores (4h)",
+        "recursos_ids": ["fgv_gratuitos", "ev_bradesco", "senai_ead"]
+      },
+      {
+        "titulo": "Técnico em manutenção automotiva",
+        "por_que_faz_sentido": "Manutenção preventiva que você faz por necessidade vira ofício com certificação. É a transição mais curta da lista porque você já conhece o veículo por dentro.",
+        "skills_aproveitadas": [
+          "diagnóstico de ruído e falha por sintoma",
+          "manutenção preventiva e troca de itens de desgaste",
+          "negociação e avaliação de serviço em oficina"
+        ],
+        "skills_faltantes": [
+          "leitura de scanner e código de falha OBD",
+          "sistemas elétricos e injeção eletrônica"
+        ],
+        "tempo_transicao_meses": 9,
+        "primeiro_passo_semana": "Se inscrever em um curso gratuito de mecânica básica no SENAI EAD e concluir a primeira unidade (5h)",
+        "recursos_ids": ["senai_ead", "sebrae_cursos"]
+      },
+      {
+        "titulo": "Operador de torre de controle e roteirização",
+        "por_que_faz_sentido": "É o outro lado do rádio: em vez de dirigir, você acompanha a frota em tempo real e decide o replanejamento quando a rota trava. Sua experiência de rua faz a decisão ser realista.",
+        "skills_aproveitadas": [
+          "conhecimento prático da malha viária urbana",
+          "decisão rápida sob imprevisto de rota",
+          "comunicação objetiva por aplicativo e rádio"
+        ],
+        "skills_faltantes": [
+          "software de rastreamento e telemetria",
+          "Excel para relatório de ocorrências",
+          "indicadores de produtividade de frota"
+        ],
+        "tempo_transicao_meses": 6,
+        "primeiro_passo_semana": "Concluir o curso de Excel Básico da Fundação Bradesco (5h)",
+        "recursos_ids": ["ev_bradesco", "fgv_gratuitos", "microsoft_learn"]
+      }
+    ]
+  },
+  "Atendente de call center": {
+    "risco_automacao": {
+      "nivel": "alto",
+      "justificativa": "Atendimento de primeiro nível com script definido é justamente o que os bots de voz e chat já resolvem. Sobra o atendimento que exige negociação e exceção."
+    },
+    "carreiras": [
+      {
+        "titulo": "Analista de sucesso do cliente (CS)",
+        "por_que_faz_sentido": "É atendimento com outro objetivo: em vez de resolver o chamado e encerrar, você acompanha a carteira para o cliente não cancelar. A retenção que você já faz no script vira o núcleo do trabalho.",
+        "skills_aproveitadas": [
+          "contorno de objeção e retenção de cliente",
+          "registro e acompanhamento de chamado em CRM",
+          "leitura de insatisfação pelo tom da conversa",
+          "cumprimento de prazo de resposta"
+        ],
+        "skills_faltantes": [
+          "métricas de churn, NPS e health score",
+          "condução de reunião de acompanhamento por vídeo"
+        ],
+        "tempo_transicao_meses": 6,
+        "primeiro_passo_semana": "Fazer a certificação gratuita de Customer Service da HubSpot Academy (5h)",
+        "recursos_ids": ["hubspot_academy", "google_atelie", "coursera"]
+      },
+      {
+        "titulo": "SDR / pré-vendas",
+        "por_que_faz_sentido": "Você já faz o trabalho mais difícil da prospecção: falar com desconhecido ao telefone sem travar. Em pré-vendas isso é a habilidade principal, e o ganho variável costuma ser maior.",
+        "skills_aproveitadas": [
+          "abordagem por telefone com pessoa desconhecida",
+          "qualificação do problema do cliente na ligação",
+          "registro disciplinado de contatos no CRM",
+          "cumprimento de meta diária de volume"
+        ],
+        "skills_faltantes": [
+          "metodologias de qualificação como BANT ou SPIN",
+          "prospecção por LinkedIn e e-mail",
+          "montagem de cadência de contato"
+        ],
+        "tempo_transicao_meses": 4,
+        "primeiro_passo_semana": "Completar o curso de Inbound Sales da HubSpot Academy (4h) e reescrever seu próprio script de abertura",
+        "recursos_ids": ["hubspot_academy", "sebrae_cursos", "rock_university"]
+      },
+      {
+        "titulo": "Analista de suporte técnico N1",
+        "por_que_faz_sentido": "Mesma rotina de fila e chamado que você já domina, só que sobre software. A parte comportamental você já tem; falta a camada técnica, que é a mais fácil de estudar sozinho.",
+        "skills_aproveitadas": [
+          "triagem e priorização de fila de chamados",
+          "documentação clara do problema relatado",
+          "condução do usuário passo a passo por telefone"
+        ],
+        "skills_faltantes": [
+          "redes e diagnóstico básico de conectividade",
+          "sistemas operacionais e linha de comando",
+          "ferramentas de ticket como Jira ou Zendesk"
+        ],
+        "tempo_transicao_meses": 8,
+        "primeiro_passo_semana": "Iniciar o Google IT Support no Coursera (modo auditoria, gratuito) e concluir o módulo 1 (6h)",
+        "recursos_ids": ["coursera", "dio", "microsoft_learn"]
+      }
+    ]
+  }
+}
