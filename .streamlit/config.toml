@@ -1,0 +1,8 @@
+# Cores base do tema, alinhadas ao design do Figma.
+# O resto do visual vem do CSS injetado no app.py.
+[theme]
+base = "light"
+primaryColor = "#D97706"
+backgroundColor = "#F5F3EE"
+secondaryBackgroundColor = "#EDE9E0"
+textColor = "#0D1B34"

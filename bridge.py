@@ -9,9 +9,6 @@ Três responsabilidades:
 
 import json
 
-from google import genai
-from google.genai import types
-
 from recursos import buscar_recursos, catalogo_para_prompt
 
 MODELO = "gemini-2.5-flash"
@@ -112,6 +109,11 @@ def pos_processar(dados: dict) -> dict:
 
 
 def analisar(cargo: str, skills: str, api_key: str) -> dict:
+    # Import aqui dentro de propósito: assim o modo demonstração roda
+    # sem o pacote google-genai instalado.
+    from google import genai
+    from google.genai import types
+
     client = genai.Client(api_key=api_key)
     resposta = client.models.generate_content(
         model=MODELO,
