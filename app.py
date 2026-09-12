@@ -598,6 +598,7 @@ if enviar:
                 "para analisar esse cargo de verdade."
             )
     elif not chave:
+        st.session_state.pop("resultado", None)
         st.error("Chave da API não encontrada. Defina GOOGLE_API_KEY ou marque o modo demonstração.")
     else:
         with st.spinner("Analisando seu perfil..."):
@@ -605,6 +606,7 @@ if enviar:
                 st.session_state["resultado"] = analisar(cargo, skills, chave)
                 st.session_state["mockado"] = False
             except Exception as erro:
+                st.session_state.pop("resultado", None)
                 st.error(f"A análise falhou: {erro}")
 
 if "resultado" in st.session_state:
